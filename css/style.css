@@ -1,0 +1,53 @@
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto 
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:url(../images/bg_png.png) no-repeat center top;
+    background-color:#211d02;
+
+}
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.logo{
+	padding-top:5px;
+}
+.container-new{
+	padding-top:-15px;
+}
+.rcorners {
+    border-radius: 25px; 
+}
+.top-spacer {
+   padding-top:10px;
+   padding-left:5px;
+}
+.right {
+    position: absolute;
+    right: 100px;
+}
